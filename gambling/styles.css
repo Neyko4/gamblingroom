@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@1&family=Fjalla+One&family=Secular+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background-image: url('backg.jpg');
+  background-size: 100% auto;
+  overflow: hidden;
+}
+
+h2{
+	color: white;
+	text-align: center;
+	padding-top: 2%;	
+	font-size: 6em;
+	font-family: 'Changa One', cursive;
+}
+
+#naslov {
+    background: blue;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+	height: 75px;
+	font-family: 'Changa One', cursive;
+	border-bottom: 3px solid white;
+	font-size: 200%;
+	background: #191970;
+}
+
+#celota {
+	height: 580px;
+	width: 600px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: 3px solid white;
+	border-radius: 3px;	
+}
+
+#glavni {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+form {}
+
+#igrac {
+    width: 100%;
+    display: flex; /* or inline-flex */
+    /*background: purple;*/
+    justify-content:center;
+	
+}
+
+.igralec {
+	padding-top: 65px;
+    height: 235px;
+    width: 100%;
+	border-bottom: 3px solid white;
+	background-image: url('podlaga.jpg');
+	font-family: 'Changa One', cursive;
+	font-size: 150%;
+	color: white;
+}
+
+#izbira {
+	padding-top: 10px;
+    text-align: center;
+	height: 189px;
+	background: #191970;
+	font-family: 'Changa One', cursive;
+	font-size: 150%;
+}
+
+#naslov2 {
+    background: blue;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+	height: 75px;
+	font-family: 'Changa One', cursive;
+	border-bottom: 3px solid white;
+	font-size: 200%;
+	background: #191970;
+}
+
+#celota2 {
+	height: 580px;
+	width: 600px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: 3px solid white;
+	border-radius: 3px;	
+}
+
+#glavni2 {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+form {}
+
+#igrac2 {
+    width: 100%;
+    display: flex; /* or inline-flex */
+    /*background: purple;*/
+    justify-content:center;
+	
+}
+
+.igralec2 {
+	padding-top: 100px;
+    height: 235px;
+    width: 100%;
+	border-bottom: 3px solid white;
+	background-image: url('podlaga.jpg');
+	font-family: 'Changa One', cursive;
+	font-size: 150%;
+	color: white;
+}
+
+#izbira2 {
+	padding-top: 10px;
+    text-align: center;
+	height: 154px;
+	background: #191970;
+	font-family: 'Changa One', cursive;
+	font-size: 150%;
+}
+
+#naslov3 {
+    background: blue;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+	height: 75px;
+	font-family: 'Changa One', cursive;
+	border-bottom: 3px solid white;
+	font-size: 200%;
+	background: #191970;
+}
+
+#celota3 {
+	height: 530px;
+	width: 600px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: 3px solid white;
+	border-radius: 3px;	
+}
+
+#glavni3 {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+form {}
+
+#igrac3 {
+    width: 100%;
+    display: flex; /* or inline-flex */
+    /*background: purple;*/
+    justify-content:center;
+	
+}
+
+.igralec3 {
+	padding-top: 60px;
+    height: 235px;
+    width: 100%;
+	border-bottom: 3px solid white;
+	background-image: url('podlaga.jpg');
+	font-family: 'Changa One', cursive;
+	font-size: 400%;
+	color: white;
+}
+
+#izbira3 {
+	padding-top: 30px;
+    text-align: center;
+	height: 124px;
+	background: #191970;
+	font-family: 'Changa One', cursive;
+	font-size: 150%;
+}
+
+.custom-btn {
+  width: 150px;
+  height: 50px;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Changa One', cursive;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-9 {
+  border: none;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.btn-9:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   background-color: #1fd1f9;
+background-image: linear-gradient(315deg, white, pink, #FF69B4);
+  transition: all 0.3s ease;
+}
+.btn-9:hover {
+  background: transparent;
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  color: black;
+}
+.btn-9:hover:after {
+  -webkit-transform: scale(2) rotate(180deg);
+  transform: scale(2) rotate(180deg);
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+
+.stevilok {
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	font-family: 'Changa One', cursive;
+	font-size: 125%;
+	border: 3px solid black;
+}
+
+#diceLeva {
+	position: absolute;
+	margin-top: 300px;
+	left: 125px;
+	z-index: -1;
+	width: 400px;
+	height: 240px;
+	transform: rotate(20deg);
+}
+
+.diceDesno {
+	position: absolute;
+	top: 300px;
+	right: 125px;
+	z-index: -1;
+	
+}
+
+.diceDesno img {
+	max-width: 100%;
+	width: 400px;
+	height: 240px;
+	transform: rotate(-50deg);
+}
+
+.zmaga {
+	font-family: 'Changa One', cursive;
+	font-size: 200%;
+	animation: Color 3s linear infinite;
+	-webkit-animation: Color 3s ease-in-out infinite;
+}
+
+@keyframes Color{
+  0%{
+    color:#ffffff;
+  }
+  
+  20%{
+    color:#000000;
+  }
+  
+  40%{
+    color:#ffffff;
+  }
+  
+  60%{
+    color:#000000;
+  }
+  
+  80%{
+    color:#ffffff;
+  }
+  
+  100%{
+    color:#000000;
+  }
+}
+
+@-moz-keyframes Color{
+  0%{
+    color:#000000;
+  }
+  
+  20%{
+    color:#ffffff;
+  }
+  
+  40%{
+    color:#000000;
+  }
+  
+  60%{
+    color:#ffffff;
+  }
+  
+  80%{
+    color:#000000;
+  }
+  
+  100%{
+    color:#ffffff;
+  }
+}
+
+@-webkit-keyframes Color{
+  0%{
+    color:#ffffff;
+  }
+  
+  20%{
+    color:#000000;
+  }
+  
+  40%{
+    color:#ffffff;
+  }
+  
+  60%{
+    color:#000000;
+  }
+  
+  80%{
+    color:#ffffff;
+  }
+  
+  100%{
+    color:#000000;
+  }
+}
+
+@keyframes firework {
+  0% { transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }
+  50% { width: 0.5vmin; opacity: 1; }
+  100% { width: var(--finalSize); opacity: 0; }
+}
+
+/* @keyframes fireworkPseudo {
+  0% { transform: translate(-50%, -50%); width: var(--initialSize); opacity: 1; }
+  50% { width: 0.5vmin; opacity: 1; }
+  100% { width: var(--finalSize); opacity: 0; }
+}
+ */
+.firework,
+.firework::before,
+.firework::after
+{
+  --initialSize: 0.5vmin;
+  --finalSize: 45vmin;
+  --particleSize: 0.2vmin;
+  --color1: yellow;
+  --color2: khaki;
+  --color3: white;
+  --color4: lime;
+  --color5: gold;
+  --color6: mediumseagreen;
+  --y: -30vmin;
+  --x: -50%;
+  --initialY: 60vmin;
+  content: "";
+  animation: firework 2s infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, var(--y));
+  width: var(--initialSize);
+  aspect-ratio: 1;
+  background: 
+    /*
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 0% 0%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 100% 0%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 100% 100%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 0% 100%,
+    */
+    
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 50% 0%,
+    radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 100% 50%,
+    radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 50% 100%,
+    radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 0% 50%,
+    
+    /* bottom right */
+    radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 80% 90%,
+    radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 95% 90%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 90% 70%,
+    radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 100% 60%,
+    radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 55% 80%,
+    radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 70% 77%,
+    
+    /* bottom left */
+    radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 22% 90%,
+    radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 45% 90%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 33% 70%,
+    radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 10% 60%,
+    radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 31% 80%,
+    radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 28% 77%,
+    radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 13% 72%,
+    
+    /* top left */
+    radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 80% 10%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 95% 14%,
+    radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 90% 23%,
+    radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 100% 43%,
+    radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 85% 27%,
+    radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 77% 37%,
+    radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 60% 7%,
+    
+    /* top right */
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 22% 14%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 45% 20%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 33% 34%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 10% 29%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 31% 37%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 28% 7%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 13% 42%
+    ;
+  background-size: var(--initialSize) var(--initialSize);
+  background-repeat: no-repeat;
+}
+
+.firework::before {
+  --x: -50%;
+  --y: -50%;
+  --initialY: -50%;
+/*   transform: translate(-20vmin, -2vmin) rotate(40deg) scale(1.3) rotateY(40deg); */
+  transform: translate(-50%, -50%) rotate(40deg) scale(1.3) rotateY(40deg);
+/*   animation: fireworkPseudo 2s infinite; */
+}
+
+.firework::after {
+  --x: -50%;
+  --y: -50%;
+  --initialY: -50%;
+/*   transform: translate(44vmin, -50%) rotate(170deg) scale(1.15) rotateY(-30deg); */
+  transform: translate(-50%, -50%) rotate(170deg) scale(1.15) rotateY(-30deg);
+/*   animation: fireworkPseudo 2s infinite; */
+}
+
+.firework:nth-child(2) {
+  --x: 30vmin;
+}
+
+.firework:nth-child(2),
+.firework:nth-child(2)::before,
+.firework:nth-child(2)::after {
+  --color1: pink;
+  --color2: violet;
+  --color3: fuchsia;
+  --color4: orchid;
+  --color5: plum;
+  --color6: lavender;  
+  --finalSize: 40vmin;
+  left: 30%;
+  top: 60%;
+  animation-delay: -0.25s;
+}
+
+.firework:nth-child(3) {
+  --x: -30vmin;
+  --y: -50vmin;
+}
+
+.firework:nth-child(3),
+.firework:nth-child(3)::before,
+.firework:nth-child(3)::after {
+  --color1: cyan;
+  --color2: lightcyan;
+  --color3: lightblue;
+  --color4: PaleTurquoise;
+  --color5: SkyBlue;
+  --color6: lavender;
+  --finalSize: 35vmin;
+  left: 70%;
+  top: 60%;
+  animation-delay: -0.4s;
+}
